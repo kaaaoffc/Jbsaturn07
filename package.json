@@ -1,0 +1,14 @@
+{
+  "name": "kaaa-offc-store",
+  "version": "2.0.0",
+  "description": "Topup Store Web (Vercel Ready)",
+  "main": "api/index.js",
+  "private": true,
+  "scripts": {
+    "dev": "node api/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0"
+  }
+}
